@@ -4,6 +4,7 @@ SpeakEvents
 iOS tweak for speaking notifications and other events using speech synthesiser.
 
 Official website: http://se.k3a.me/
+Developer & User Forums: http://forum.k3a.me
 
 In order to complile it, set the correct theos symlink to your theos installation and run 'make package' command.
 
