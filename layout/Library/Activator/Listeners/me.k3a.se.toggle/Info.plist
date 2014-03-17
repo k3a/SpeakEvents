@@ -1,0 +1,5 @@
+{
+	title = "SpeakEvents";
+	description = "Toggle SpeakEvents";
+	"compatible-modes" = ("springboard", "application", "lockscreen");
+}

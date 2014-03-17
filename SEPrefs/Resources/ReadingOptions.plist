@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Speech Volume</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>setDeviceVol</string>
+            <key>label</key>
+            <string>Set Device Volume</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>default</key>
+            <real>0.8</real>
+            <key>key</key>
+            <string>speechVolume</string>
+            <key>label</key>
+            <string>Speech Volume</string>
+            <key>leftImage</key>
+            <string>SpeakerMute.png</string>
+            <key>max</key>
+            <real>3</real>
+            <key>min</key>
+            <real>0.1</real>
+            <key>rightImage</key>
+            <string>SpeakerMax.png</string>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Speech Volume When Locked</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>lockVolumeEnabled</string>
+            <key>label</key>
+            <string>Enable Lockscreen Vol.</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>default</key>
+            <real>0.8</real>
+            <key>key</key>
+            <string>speechVolumeLocked</string>
+            <key>label</key>
+            <string>Speech Volume</string>
+            <key>leftImage</key>
+            <string>SpeakerMute.png</string>
+            <key>max</key>
+            <real>3</real>
+            <key>min</key>
+            <real>0.1</real>
+            <key>rightImage</key>
+            <string>SpeakerMax.png</string>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Reading Speed</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>default</key>
+            <real>1</real>
+            <key>key</key>
+            <string>voiceSpeed</string>
+            <key>label</key>
+            <string>Reading Speed</string>
+            <key>leftImage</key>
+            <string>turtle.png</string>
+            <key>max</key>
+            <real>2</real>
+            <key>min</key>
+            <real>0.1</real>
+            <key>rightImage</key>
+            <string>hare.png</string>
+			<key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+			<key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSLinkListCell</string>
+            <key>default</key>
+            <string>system</string>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>detail</key>
+            <string>PSListItemsController</string>
+            <key>key</key>
+            <string>voice</string>
+            <key>label</key>
+            <string>Default Voice</string>
+            <key>validValues</key>
+            <array>
+				<string>system</string>
+				<string>en-US</string>
+                <string>en-GB</string>
+                <string>en-IE</string>
+                <string>en-AU</string>
+                <string>en-ZA</string>
+                <string>fr-FR</string>
+                <string>fr-CA</string>
+                <string>ru-RU</string>
+                <string>th-TH</string>
+                <string>pt-BR</string>
+                <string>sk-SK</string>
+                <string>ro-RO</string>
+                <string>no-NO</string>
+                <string>fi-FI</string>
+                <string>pl-PL</string>
+                <string>de-DE</string>
+                <string>nl-NL</string>
+                <string>id-ID</string>
+                <string>tr-TR</string>
+                <string>it-IT</string>
+                <string>pt-PT</string>
+                <string>es-MX</string>
+                <string>zh-HK</string>
+                <string>sv-SE</string>
+                <string>hu-HU</string>
+                <string>zh-TW</string>
+                <string>es-ES</string>
+                <string>zh-CN</string>
+                <string>nl-BE</string>
+                <string>ar-SA</string>
+                <string>ko-KR</string>
+                <string>cs-CZ</string>
+                <string>da-DK</string>
+                <string>hi-IN</string>
+                <string>el-GR</string>
+                <string>ja-JP</string>
+            </array>
+            <key>validTitles</key>
+            <array>
+				<string>System Default</string>
+				<string>English (United States)</string>
+                <string>English (United Kingdom)</string>
+                <string>English (Ireland)</string>
+                <string>English (Australia)</string>
+                <string>English (South Africa)</string>
+                <string>French (France)</string>
+                <string>French (Canada)</string>
+                <string>Russian</string>
+                <string>Thai</string>
+                <string>Portuguese (Brazil)</string>
+                <string>Slovak</string>
+                <string>Romanian</string>
+                <string>Norwegian</string>
+                <string>Finnish</string>
+                <string>Polish</string>
+                <string>German</string>
+                <string>Dutch</string>
+                <string>Indonesian</string>
+                <string>Turkish</string>
+                <string>Italian</string>
+                <string>Portuguese (Portugal)</string>
+                <string>Spanish (Mexico)</string>
+                <string>Chinese (Hong Kong)</string>
+                <string>Swedish</string>
+                <string>Hungarian</string>
+                <string>Chinese (Taiwan)</string>
+                <string>Spanish (Spain)</string>
+                <string>Chinese</string>
+                <string>Dutch (Belgium)</string>
+                <string>Arabic (Saudi Arabia)</string>
+                <string>Korean</string>
+                <string>Czech</string>
+                <string>Danish</string>
+                <string>Hindi</string>
+                <string>Greek</string>
+                <string>Japanese</string>
+            </array>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>detectLang</string>
+            <key>label</key>
+            <string>Auto-detect Language</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>suppressSound</string>
+            <key>label</key>
+            <string>Suppress Original Sound</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>militaryTime</string>
+            <key>label</key>
+            <string>Military Time (24h)</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>readEmoticons</string>
+            <key>label</key>
+            <string>Read Emoticons</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>readTimeInAlarms</string>
+            <key>label</key>
+            <string>Read Time in Alarms</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>shortenBody</string>
+            <key>label</key>
+            <string>Shorten Message Body</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSLinkListCell</string>
+            <key>default</key>
+            <integer>0</integer>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>detail</key>
+            <string>PSListItemsController</string>
+            <key>key</key>
+            <string>queue</string>
+            <key>label</key>
+            <string>Queue Notifications</string>
+            <key>validTitles</key>
+            <array>
+                <string>Read First</string>
+                <string>Read All</string>
+            </array>
+            <key>validValues</key>
+            <array>
+                <integer>0</integer>
+                <integer>2</integer>
+            </array>
+			<key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+			<key>label</key>
+			<string>Delay Before Speaking</string>
+			<key>footerText</key>
+			<string>Minimum 0, maximum 5 seconds.</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>min</key>
+            <real>0.0</real>
+            <key>max</key>
+            <real>5.0</real>
+            <key>default</key>
+            <real>0.0</real>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>delayBeforeSpeaking</string>
+            <key>label</key>
+            <string>Delay Before Speaking</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+	</array>
+	<key>title</key>
+	<string>Reading Options</string>
+</dict>
+</plist>

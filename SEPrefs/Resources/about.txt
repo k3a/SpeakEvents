@@ -1,0 +1,68 @@
+
+SpeakEvents
+---------------------------
+Copyright (c) 2012-2013 K3A
+Released under GNU GPL.
+
+Source code available at:
+https://github.com/k3a/SpeakEvents
+
+Thanks for help:
+- French translation by The Jailbreak Bay
+  (http://thejailbreakbay.com, @thejailbreakbay)
+- Polish translation by Vertex
+  (http://vertex.boo.pl)
+- Arabic translation by Black Demon
+  (@black_dem0n)
+- German translation by Rafael Heße and Lukas Schmitt
+- Turkey translation by Mehmet Ünal
+  (http://fb.me/momo0606, @memo0606)
+- Portuguese translation by Pedro Vieira
+  (@W1TCH_)
+- Thai translation by Rainbows
+  (http://www.iappdev.com, @kritjung)
+- Greek translation by George Altinakis
+  (altinakisg@gmail.com)
+- Italian translation by Fudish
+  (http://www.ioslifeita.com)
+- Russian translation by Sofia Merkulova
+  (http://merkulova.prosite.com)
+- Korean translation by Donghyeon Kwak
+- Chinese translation by Chang TSUHAO
+- Dutch translation by Rick van Dijck
+- Indonesian translation by Steven Caesario
+  (@steven_exc)
+
+Special thanks to Kevin Cinar for testing caller name search bugfixes.
+
+Uses parts of Chromium
+Copyright (C) 2010 The Chromium Authors.
+All rights reserved.
+Released under new BSD license.
+
+================================================================
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

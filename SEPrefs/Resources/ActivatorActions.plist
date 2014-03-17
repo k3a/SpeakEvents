@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable SpeakEvents</string>
+			<key>footerText</key>
+			<string>This action will enable SpeakEvents. It has the same effect as setting the Speaking Enabled switch to On.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>isController</key>
+			<true/>
+			<key>bundle</key>
+			<string>LibActivator</string>
+			<key>activatorListener</key>
+			<string>me.k3a.se.enable</string>
+			<key>label</key>
+			<string>Enable SpeakEvents</string>
+		</dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Disable SpeakEvents</string>
+            <key>footerText</key>
+            <string>This action will disable SpeakEvents. It has the same effect as setting the Speaking Enabled switch to Off.</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSLinkCell</string>
+            <key>isController</key>
+            <true/>
+            <key>bundle</key>
+            <string>LibActivator</string>
+            <key>activatorListener</key>
+            <string>me.k3a.se.disable</string>
+            <key>label</key>
+            <string>Disable SpeakEvents</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Toggle SpeakEvents</string>
+            <key>footerText</key>
+            <string>This action will toggle SpeakEvents enabled state. It has the same effect as toggling the Speaking Enabled switch.</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSLinkCell</string>
+            <key>isController</key>
+            <true/>
+            <key>bundle</key>
+            <string>LibActivator</string>
+            <key>activatorListener</key>
+            <string>me.k3a.se.toggle</string>
+            <key>label</key>
+            <string>Toggle SpeakEvents</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Stop Speaking</string>
+            <key>footerText</key>
+            <string>This action will make SpeakEvents stop speaking immediately.</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSLinkCell</string>
+            <key>isController</key>
+            <true/>
+            <key>bundle</key>
+            <string>LibActivator</string>
+            <key>activatorListener</key>
+            <string>me.k3a.se.stop</string>
+            <key>label</key>
+            <string>Stop Speaking</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Repeat Last Event</string>
+            <key>footerText</key>
+            <string>This action will make SpeakEvents repeat the last spoken event, even if it was not spoken due to time restrictions.</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSLinkCell</string>
+            <key>isController</key>
+            <true/>
+            <key>bundle</key>
+            <string>LibActivator</string>
+            <key>activatorListener</key>
+            <string>me.k3a.se.repeat</string>
+            <key>label</key>
+            <string>Repeat Last Event</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Speak Current Time</string>
+            <key>footerText</key>
+            <string>This action will speak the current system time regardless of speak limitations.</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSLinkCell</string>
+            <key>isController</key>
+            <true/>
+            <key>bundle</key>
+            <string>LibActivator</string>
+            <key>activatorListener</key>
+            <string>me.k3a.se.time</string>
+            <key>label</key>
+            <string>Speak Current Time</string>
+        </dict>
+
+
+	</array>
+	<key>title</key>
+	<string>Activator Actions</string>
+</dict>
+</plist>

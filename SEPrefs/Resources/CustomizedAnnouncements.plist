@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Customized Announcements</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>caEnable</string>
+            <key>label</key>
+            <string>Enabled</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+			<key>label</key>
+			<string>Incoming Call</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+			<key>id</key>
+			<string>CALL</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Current Time Minutes</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CURRENT_TIME_MIN</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Current Time</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CURRENT_TIME</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Incoming E-Mail</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>MAIL</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Inc. E-Mail Without Subject</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>MAIL_NO_SUBJ</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Incoming Message</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>MESSAGE</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>App Notification</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>NOTIFICATION</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Reminder Event</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>REMINDER</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Alarm Clock</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>ALARM</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Timer Done</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>TIMER_DONE</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Calendar</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CALENDAR</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Charge One Hour</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_DAY_0_HOUR_1</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Charge Hours</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_DAY_0_HOUR_2</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Charge One Day One Hour</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_DAY_1_HOUR_1</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Charge One Day More Hours</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_DAY_1_HOUR_2</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+		
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Charge More Days One Hour</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_DAY_2_HOUR_1</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Charge More Days More Hours</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_DAY_2_HOUR_2</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Battery Very Low</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_VERY_LOW</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Battery Low</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_LOW</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Charging Percent</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_PERCENT</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Battery Only Percent</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_ONLY_PERCCENT</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Charge Started</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_STARTED</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Charge Started Thanks</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>id</key>
+            <string>CHARGE_STARTED_THANKS</string>
+            <key>get</key>
+            <string>caGet:</string>
+            <key>set</key>
+            <string>caSet:specifier:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Customized Announcements</string>
+</dict>
+</plist>

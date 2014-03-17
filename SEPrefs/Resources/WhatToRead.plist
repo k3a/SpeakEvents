@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>What to Read</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>readTitle</string>
+            <key>label</key>
+            <string>Message Title</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>readSubject</string>
+            <key>label</key>
+            <string>E-Mail Subject</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.k3a.SpeakEvents</string>
+			<key>key</key>
+			<string>readBody</string>
+			<key>label</key>
+			<string>Message Body</string>
+			<key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+		</dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>speakBattery</string>
+            <key>label</key>
+            <string>Battery Levels</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>speakEvery10Perc</string>
+            <key>label</key>
+            <string>Charging - Every 10%</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>speakIncomingCalls</string>
+            <key>label</key>
+            <string>Speak Incoming Calls</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>speakNotificator</string>
+            <key>label</key>
+            <string>Speak Notificator Events</string>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSLinkListCell</string>
+            <key>default</key>
+            <integer>0</integer>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>detail</key>
+            <string>PSListItemsController</string>
+            <key>key</key>
+            <string>speakTimeType</string>
+            <key>label</key>
+            <string>Speak Time</string>
+            <key>validTitles</key>
+            <array>
+                <string>Disabled</string>
+                <string>Every Hour</string>
+                <string>Every 30 Minutes</string>
+				<string>Every 15 Minutes</string>
+            </array>
+            <key>validValues</key>
+            <array>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>2</integer>
+				<integer>3</integer>
+            </array>
+            <key>PostNotification</key>
+            <string>me.k3a.SpeakEvents/reloadPrefs</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Maps Directions</string>
+			<key>footerText</key>
+			<string>When this option is enabled, directions will automatically update based on your current location.</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>speakDirections</string>
+            <key>label</key>
+            <string>Read Maps Directions</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>me.k3a.SpeakEvents</string>
+            <key>key</key>
+            <string>autoForward</string>
+            <key>label</key>
+            <string>Automatically Advance</string>
+        </dict>
+
+	</array>
+	<key>title</key>
+	<string>What to Read</string>
+</dict>
+</plist>

@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = SEPrefs;
+	cell = PSLinkCell;
+	detail = K3ASEPrefsController;
+	icon = SEPrefs.png;
+	isController = 1;
+	label = "SpeakEvents";
+    };
+}

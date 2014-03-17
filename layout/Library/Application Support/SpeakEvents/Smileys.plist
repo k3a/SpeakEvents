@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>(happy face)</key>
+	<string>(happy face)</string>
+    <key>(sad face)</key>
+	<string>(sad face)</string>
+    <key>(silly face)</key>
+	<string>(silly face)</string>
+    <key>(angry face)</key>
+    <string>(angry face)</string>
+    <key>(winky face)</key>
+    <string>(winky face)</string>
+    <key>(not amused face)</key>
+    <string>(not amused face)</string>
+    <key>(surprised face)</key>
+    <string>(surprised face)</string>
+</dict>
+</plist>

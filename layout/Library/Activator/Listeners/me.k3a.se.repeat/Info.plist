@@ -1,0 +1,5 @@
+{
+	title = "SpeakEvents";
+	description = "Repeat the Last Event";
+	"compatible-modes" = ("springboard", "application", "lockscreen");
+}

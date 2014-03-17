@@ -1,0 +1,11 @@
+Package: me.k3a.speakevents
+Name: SpeakEvents
+Version: 1.2.0
+Homepage: http://k3a.me
+Priority: standard
+Architecture: iphoneos-arm
+Section: Tweaks
+Author: K3A <se@k3a.me>
+Description: Speaks common events like incoming emails, sms, iMessages and battery level. This is a pre-release build, when sending me an email, please mention that. Also note that I may not be able to respond to every email regarding pre-releases.
+Depends: firmware (>= 5.0), mobilesubstrate, applist (>= 1.5.1), preferenceloader (>= 2.0.4), libactivator
+Icon: file:///Library/PreferenceBundles/SEPrefs.bundle/SEPrefs@2x.png

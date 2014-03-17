@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cs</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Poslední nabití proběhlo před jednou hodinou.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Poslední nabití proběhlo před %1 hodinami.</string>
+		<key>CALL</key>
+		<string>Příchozí hovor od %1</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Poslední nabití proběhlo před jedním dnem a jednou hodinou.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Poslední nabití proběhlo před jedním dnem a %1 hodinami.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Poslední nabití proběhlo před %1 dny a jednou hodinou.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>Je %1 %2</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Poslední nabití proběhlo před %1 dny a %2 hodinami.</string>
+		<key>CHARGE_FULL</key>
+		<string>Baterie je plně nabitá.</string>
+		<key>CHARGE_LOW</key>
+		<string>Baterie na %1 %, brzo bude potřeba nabíjet.</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>Baterie má pouze %1 %. Příště mě prosím nech nabít úplně.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Baterie má %1 %.</string>
+		<key>CHARGE_STARTED</key>
+		<string>Nabíjím.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Děkuji. Nabíjím.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Baterie má kritickou úroveň! Připoj mě do nabíječky.</string>
+		<key>CURRENT_TIME</key>
+		<string>Je %1 hodin</string>
+		<key>MAIL</key>
+		<string>Nový ímejl od %1 s předmětem %2</string>
+		<key>MAIL_NO_SUBJ</key>
+		<string>Nový ímejl od %1</string>
+		<key>MESSAGE</key>
+		<string>Nová zpráva od %1</string>
+		<key>REMINDER</key>
+		<string>Upomínka: %1</string>
+		<key>NOTIFICATION</key>
+		<string>%1 notifikace</string>
+		<key>CALENDAR</key>
+		<string>Událost z kalendáře: %1</string>
+		<key>TIMER_DONE</key>
+		<string>Odpočítávání skončilo</string>
+		<key>ALARM</key>
+		<string>Budík: %1</string>
+	</dict>
+	<key>en</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>It has been one hour since the last full charge.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>It has been %1 hours since the last full charge.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>It has been one day and one hour since the last full charge.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>It has been one day and %1 hours since the last full charge.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>It has been %1 days and one hour since the last full charge.</string>
+		<key>CALL</key>
+		<string>Incoming call from %1</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>It has been %1 days and %2 hours since the last full charge.</string>
+		<key>CHARGE_FULL</key>
+		<string>I am fully charged now.</string>
+		<key>CHARGE_LOW</key>
+		<string>Battery is at %1 %, consider connecting me to the charger.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>It&apos;s %1 %2</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>Battery is only at %1 %. Please let me fully charge next time.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Battery at %1 %.</string>
+		<key>CHARGE_STARTED</key>
+		<string>I am charging the battery now.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Thanks, I am charging the battery now.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Battery level critical! Connect me to the charger!</string>
+		<key>CURRENT_TIME</key>
+		<string>It&apos;s %1 o&apos;clock</string>
+		<key>MAIL</key>
+		<string>A new e-mail from %1 with subject %2</string>
+		<key>MAIL_NO_SUBJ</key>
+		<string>A new e-mail from %1</string>
+		<key>MESSAGE</key>
+		<string>A new message from %1.</string>
+		<key>NOTIFICATION</key>
+		<string>%1 notification</string>
+		<key>REMINDER</key>
+		<string>Reminder: %1</string>
+		<key>ALARM</key>
+		<string>Alarm: %1</string>
+		<key>CALENDAR</key>
+		<string>Calendar event: %1</string>
+		<key>TIMER_DONE</key>
+		<string>Timer is done</string>
+	</dict>
+	<key>pl</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Minęła godzina od ostatniego pełnego ładowania.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Minęło %1 godzin od ostatniego pełnego ładowania.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Minął dzień i jedna godzina od ostatniego pełnego ładowania.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Minął dzień i %1 godzin od ostatniego pełnego ładowania.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Minęło %1 dni od ostatniego pełnego ładowania.</string>
+		<key>CALL</key>
+		<string>%1 dzwoni</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Minęło %1 dni i %2 godzin od ostatniego pełnego ładowania.</string>
+		<key>CHARGE_FULL</key>
+		<string>Bateria naładowana do pełna.</string>
+		<key>CHARGE_LOW</key>
+		<string>Poziom baterii to %1 %, rozważ podłączenie mnie do ładowarki.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %2</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>Poziom baterii to tylko %1 %. Prosze, pozwól mi się naładować do pełna następnym razem.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Poziom baterii to %1 %.</string>
+		<key>CHARGE_STARTED</key>
+		<string>Ładuje baterię.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Dzięki, teraz ładuje baterię.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Poziom baterii krytyczny! Podłącz mnie do ładowarki!</string>
+		<key>CURRENT_TIME</key>
+		<string>Jest godzina %1</string>
+		<key>MAIL</key>
+		<string>Nowy e-mail od %1 z tematem %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Nowy e-mail od %1</string>
+		<key>MESSAGE</key>
+		<string>Nowa wiadomość od %1.</string>
+		<key>ALARM</key>
+		<string>Budzik: %1</string>
+		<key>NOTIFICATION</key>
+		<string>Powiadomienie na %1</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+		<key>TIMER_DONE</key>
+		<string>Odliczanie zakończone</string>
+	</dict>
+	<key>es</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Ha pasado una hora desde la última carga completa.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Han pasado %1 horas desde la última carga completa.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Ha pasado un día y una hora desde la última carga completa.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Ha pasado un día y %1 horas desde la última carga completa.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Han pasado %1 días y una hora desde la última carga completa.</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Han pasado %1 días y %2 horas desde la última carga completa.</string>
+		<key>CHARGE_FULL</key>
+		<string>Estoy completamente cargada ahora.</string>
+		<key>CHARGE_LOW</key>
+		<string>La batería está a %1 %, ten en cuenta que me conectabas con el cargador.</string>
+		<key>CALL</key>
+		<string>Telefóno %1</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>La batería está sólo a %1 %. Por favor, déjame cargar completamente la próxima vez.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>La batería está a %1 %.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %2</string>
+		<key>CHARGE_STARTED</key>
+		<string>Estoy cargando la batería ahora.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Gracias, estoy cargando la batería ahora.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Nivel de batería crítico! Conéctame al cargador!</string>
+		<key>CURRENT_TIME</key>
+		<string>Son las %1</string>
+		<key>MAIL</key>
+		<string>Un nuevo e-mail de %1 con asunto %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Un nuevo e-mail de %1</string>
+		<key>MESSAGE</key>
+		<string>Tienes un nuevo mensaje de %1.</string>
+		<key>ALARM</key>
+		<string>Alarma: %1</string>
+		<key>NOTIFICATION</key>
+		<string>Una notificación de %1</string>
+		<key>TIMER_DONE</key>
+		<string>Tiempo agotado</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+	</dict>
+	<key>ru</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Последняя полная зарядка была проведена одним часом ранее.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Последняя полная зарядка была проведена %1 часами ранее.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Последняя полная зарядка была проведена одним днем и одним часом ранее.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Последняя полная зарядка была проведена одним днем и %1 часами ранее.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Последняя полная зарядка была проведена %1 днями и одним часом ранее.</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Последняя полная зарядка была проведена %1 днями и %2 часами ранее.</string>
+		<key>CHARGE_FULL</key>
+		<string>Батарея полностью заряжена.</string>
+		<key>CHARGE_LOW</key>
+		<string>Батарея заряжена на %1 %, лучше подключить меня к зарядному устройству.</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>Батарея заряжена только на %1 %, Пожалуйста, в следующий раз дайте мне полностью зарядиться.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Батарея заряжена на %1 %.</string>
+		<key>CHARGE_STARTED</key>
+		<string>В данный момент я заряжаю батарею</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Спасибо, в данный момент я заряжаю батарею.</string>
+		<key>CALL</key>
+		<string>Telefon %1</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Уровень заряда батареи критический! Подключите меня к зарядному устройству!!</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>Сейчас %1 %2</string>
+		<key>CURRENT_TIME</key>
+		<string>Сейчас %1.</string>
+		<key>MAIL</key>
+		<string>Письмо от %1 с темой %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Письмо от %1</string>
+		<key>MESSAGE</key>
+		<string>Вы получили новое сообщение от %1</string>
+		<key>NOTIFICATION</key>
+		<string>%1 уведомление</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>TIMER_DONE</key>
+		<string>Время истекло</string>
+		<key>ALARM</key>
+		<string>Будильник: %1</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+	</dict>
+	<key>sk</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Posledné nabitie prebehlo pred jednou hodinou.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Posledné nabitie prebehlo pred %1 hodinami.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Posledné nabitie prebehlo pred jedným dňom a jednou hodinou.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Posledné nabitie prebehlo pred jedným dňom a %1 hodinami.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Posledné nabitie prebehlo pred %1 dňami a jednou hodinou.</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Poslední nabitie prebehlo pred %1 dňami a %2 hodinami.</string>
+		<key>CHARGE_FULL</key>
+		<string>Batéria je plne nabitá.</string>
+		<key>CHARGE_LOW</key>
+		<string>Batéria na %1 %, skoro bude potreba nabíjať.</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>Batéria má iba %1 %. Nabudúce ma prosím nechaj nabiť úplne.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Batéria má %1 %.</string>
+		<key>CALL</key>
+		<string>Príchodzí hovor od %1</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>Je %1 %2</string>
+		<key>CHARGE_STARTED</key>
+		<string>Nabíjam.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Ďakujem. Nabíjam.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Batéria má kritickú úroveň! Pripoj ma do nabíjačky.</string>
+		<key>CURRENT_TIME</key>
+		<string>Je %1 hodín</string>
+		<key>MAIL</key>
+		<string>Nový ímejl od %1 s predmetom %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Nový ímejl od %1</string>
+		<key>MESSAGE</key>
+		<string>Nová správa od %1</string>
+		<key>TIMER_DONE</key>
+		<string>Časovač skončil</string>
+		<key>ALARM</key>
+		<string>Budík: %1</string>
+		<key>NOTIFICATION</key>
+		<string>%1 notifikácia</string>
+		<key>CALENDAR</key>
+		<string>Udalosť z kalenára: %1</string>
+		<key>REMINDER</key>
+		<string>Pripomienka: %1</string>
+	</dict>
+	<key>fr</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Il s&apos;est écoulé une heure depuis le dernier chargement complet.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Il s&apos;est écoulé %1 heures depuis le dernier chargement complet.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Il s&apos;est écoulé un jour et une heure depuis le dernier chargement complet.</string>
+		<key>CALL</key>
+		<string>téléphone %1</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %1</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Il s&apos;est écoulé un jour et %1 heures depuis le dernier chargement complet.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Il s&apos;est écoulé %1 jours et une heure depuis le dernier chargement complet.</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Il s&apos;est écoulé %1 jours %2 heures depuis le dernier chargement complet.</string>
+		<key>CHARGE_FULL</key>
+		<string>Je suis complètement chargé maintenant.</string>
+		<key>CHARGE_LOW</key>
+		<string>Mon niveau de batterie est de %1 %, connectez moi au secteur.</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>Mon niveau de batterie est seulement de %1 %. Merci de me laisser me charger complètement la prochaine fois.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Mon niveau de batterie est de %1 %.</string>
+		<key>CHARGE_STARTED</key>
+		<string>Je suis en cours de chargement maintenant.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Merci, je suis en cours de chargement maintenant.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Mon niveau de batterie est critique! Connectez moi au secteur!</string>
+		<key>CURRENT_TIME</key>
+		<string>Il est %1 heure</string>
+		<key>MAIL</key>
+		<string>Un nouveau e-mail de %1 dont le sujet est %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Un nouveau e-mail de %1</string>
+		<key>MESSAGE</key>
+		<string>Vous avez un nouveau message de %1.</string>
+		<key>NOTIFICATION</key>
+		<string>%1 notification</string>
+		<key>ALARM</key>
+		<string>Alarme: %1</string>
+		<key>TIMER_DONE</key>
+		<string>Temps écoulé</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+	</dict>
+	<key>pt</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Já passou uma hora desde a última carga completa.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Já passaram %1 horas desde a última carga completa.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Já passou um dia e uma hora desde a última carga completa.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Já passou um dia e %1 horas desde a última carga completa.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Já passaram %1 dias e uma hora desde a última carga completa.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %2</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Já passaram %1 dias e %2 horas desde a última carga completa.</string>
+		<key>CHARGE_FULL</key>
+		<string>De momento estou totalmente carregado.</string>
+		<key>CHARGE_LOW</key>
+		<string>A bateria está a %1 %, considera ligar-me ao carregador.</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>A bateria está apenas a %1 %. Por favor deixa-me carregar totalmente na próxima vez.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>A bateria está a %1 %.</string>
+		<key>CALL</key>
+		<string>Telefone %1</string>
+		<key>CHARGE_STARTED</key>
+		<string>Estou agora a carregar a bateria.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Muito obrigado, estou agora a carregar a bateria.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Tenho muito pouca bateria! Liga-me ao carregador!</string>
+		<key>CURRENT_TIME</key>
+		<string>São %1 horas</string>
+		<key>ALARM</key>
+		<string>Alarme: %1</string>
+		<key>TIMER_DONE</key>
+		<string>Timer Concluído</string>
+		<key>MAIL</key>
+		<string>Um novo e-mail de %1 com o assunto %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Um novo e-mail de %1</string>
+		<key>MESSAGE</key>
+		<string>Recebeste uma nova mensagem de %1.</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+		<key>NOTIFICATION</key>
+		<string>Notificação de %1</string>
+	</dict>
+	<key>ar</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>مَرَّتْ ساعة واحدة منذ آخِرْ شحْن كامل لـ البطارية.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>مَرَّتْ %1 ساعة منذ آخِرْ شحْن كامل لـ البطارية.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>مَرَّ يوم واحد وساعة واحدة منذ آخِرْ شحْن كامل لـ البطارية</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>مَرَّ يوم واحد و %1 ساعة منذ آخِرْ شحْن كامل لـ البطارية.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>مَرَّ %1 يوم وساعة واحدة منذ آخِرْ شحْن كامل لـ البطارية.</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>مَرَّ %1 يوم و %2 ساعة منذ آخِرْ شحْن كامل لـ البطارية.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %2</string>
+		<key>CHARGE_FULL</key>
+		<string>تَمَّ شَحْنِي بالكامل.</string>
+		<key>CHARGE_LOW</key>
+		<string>متبقي من البطارية %1 %،  قُمْ بتوصيلي بالشَّحْن قريباً.</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>شحْن البطارية فقط %1 %، دَعْنِي أُشحن كاملاً في المرة القادمة.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>شحْن البطارية هو %1 %.</string>
+		<key>CHARGE_STARTED</key>
+		<string>أنا اشحَن البطارية الآن.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>شكراً، لقد تم شحْن البطارية بالكامل.</string>
+		<key>CALL</key>
+		<string>%1</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>شحْن البطارية مُنْخَفِضْ جداً، قُمْ بتوصيلي بالشَّحْن!</string>
+		<key>ALARM</key>
+		<string>المنبه : %1</string>
+		<key>TIMER_DONE</key>
+		<string>انتهى المؤقت</string>
+		<key>CURRENT_TIME</key>
+		<string>إِنَّها الساعة %1</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+		<key>MAIL</key>
+		<string>وَصَلَكَ بَرِيدٌ جديد من %1، مع موضوع %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>وَصَلَكَ بَرِيدٌ جديد من %1</string>
+		<key>MESSAGE</key>
+		<string>وصلتْك رسالة جديدة من %1.</string>
+		<key>NOTIFICATION</key>
+		<string>إشعار من %1</string>
+	</dict>
+	<key>de</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Seit der letzten vollständigen Aufladung ist eine Stunde vergangen.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Seit der letzten vollständigen Aufladung sind %1 Stunden vergangen.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Seit der letzten vollständigen Aufladung ist ein Tag und eine Stunde vergangen.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Seit der letzten vollständigen Aufladung ist ein Tag und %1 Stunden vergangen.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Seit der letzten vollständigen Aufladung sind %1 Tage und eine Stunde vergangen.</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Seit der letzten vollständigen Aufladung sind %1 Tage und %2 Stunden vergangen.</string>
+		<key>CHARGE_FULL</key>
+		<string>Ich bin jetzt vollständig geladen.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 uhr %2</string>
+		<key>CHARGE_LOW</key>
+		<string>Batterie noch zu %1 % geladen, ich könnte bald mal eine Ladestation gebrauchen.</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>Batterie ist nur zu %1 % geladen. Bitte lass mich beim nächsten mal vollständig aufladen.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Batterie ist zu %1 % geladen.</string>
+		<key>CHARGE_STARTED</key>
+		<string>Ich lade gerade meine Batterie auf.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Danke, ich lade gerade meine Batterie auf.</string>
+		<key>CALL</key>
+		<string>Telefon %1</string>
+		<key>ALARM</key>
+		<string>Wecker: %1</string>
+		<key>TIMER_DONE</key>
+		<string>Timer abgelaufen</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Batterieladezustand kritisch. Bring mich schnellstens zu einer Ladestation.</string>
+		<key>CURRENT_TIME</key>
+		<string>Es ist %1 Uhr.</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+		<key>MAIL</key>
+		<string>Eine neue E-Mail von %1 mit Betreff %2.</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Eine neue E-Mail von %1</string>
+		<key>MESSAGE</key>
+		<string>Du hast eine Nachricht von %1.</string>
+		<key>NOTIFICATION</key>
+		<string>Benachrichtigung von %1.</string>
+	</dict>
+	<key>th</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>ผ่านไปหนึ่งชั่วโมงหลังจากชาร์ตแบตเตอรี่เต็มครั้งก่อน</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>ผ่านไป %1 ชั่วโมงหลังจากชาร์ตแบตเตอรี่เต็มครั้งก่อน</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>ผ่านไปหนึ่งวันกับอีกหนึ่งชั่วโมงหลังจากชาร์ตแบตเตอรี่เต็มครั้งก่อน</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>ผ่านไปหนึ่งวันกับอีก %1 ชั่วโมงหลังจากชาร์ตแบตเตอรี่เต็มครั้งก่อน</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>ผ่านไป %1 วันกับอีกหนึ่งชั่วโมงหลังจากชาร์ตแบตเตอรี่เต็มครั้งก่อน</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>ผ่านไป %1 วันกับอีก %2 ชั่วโมงหลังจากชาร์ตแบตเตอรี่เต็มครั้งก่อน</string>
+		<key>CHARGE_FULL</key>
+		<string>เสร็จสิ้นการชาร์ตแบตเตอรี่</string>
+		<key>CHARGE_LOW</key>
+		<string>ระดับพลังงานอยู่ที่ %1 % เตรียมหาที่ชาร์ตไว้ได้</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>ระดับพลังงานเหลือเพียง %1 %. กรุณาต่อกับที่ชาร์ต</string>
+		<key>CHARGE_PERCENT</key>
+		<string>ระดับพลังงานอยู่ที่ %1 %.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %2</string>
+		<key>CHARGE_STARTED</key>
+		<string>กำลังชาร์ตแบตเตอรี่</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>ขอบคุณ กำลังชาร์ตแบตเตอรี่</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>แบตเตอรี่ใกล้หมด กรุณาต่อกับที่ชาร์ตโดยด่วน</string>
+		<key>CALL</key>
+		<string>%1</string>
+		<key>ALARM</key>
+		<string>นาฬิกาปลุก: %1</string>
+		<key>TIMER_DONE</key>
+		<string>จับเวลาเสร็จ</string>
+		<key>CURRENT_TIME</key>
+		<string>ขณะนี้เวลา %1 นาฬิกา</string>
+		<key>MAIL</key>
+		<string>มีอีเมล์ใหม่มาจาก %1 หัวข้อ %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>มีอีเมล์ใหม่มาจาก %1</string>
+		<key>MESSAGE</key>
+		<string>มีข้อความใหม่มาจาก %1</string>
+		<key>NOTIFICATION</key>
+		<string>%1 ข้อความเตือน</string>
+	</dict>
+	<key>el</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Πέρασε μια ώρα από την τελευταία πλήρη φόρτιση.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Πέρασαν %1 ώρες από την τελευταία πλήρη φόρτιση.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Πέρασε μια ημέρα και μια ώρα από την τελευταία πλήρη φόρτιση.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Πέρασε μια ημέρα και %1 ώρες από την τελευταία πλήρη φόρτιση.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Πέρασαν %1 ημέρες και μια ώρα από την τελευταία πλήρη φόρτιση.</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Πέρασαν %1 ημέρες και %2 ώρες από την τελευταία πλήρη φόρτιση.</string>
+		<key>CHARGE_FULL</key>
+		<string>Η μπαταρία έχει πλήρως φορτιστεί.</string>
+		<key>CHARGE_LOW</key>
+		<string>Η μπαταρία είναι στο %1 %, η συσκευή χρειάζεται φόρτιση.</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>Η μπαταρία είναι μόλις στο %1 %. Παρακαλώ αφήσε την μπαταρία να φορτίστει πλήρως την επόμενη φορά.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Μπαταρία στο %1 %.</string>
+		<key>CHARGE_STARTED</key>
+		<string>Φορτίζω την μπαταρία.</string>
+		<key>ALARM</key>
+		<string>Ειδοποίηση: %1@</string>
+		<key>TIMER_DONE</key>
+		<string>Τέλος χρονοδιακόπτη</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Ευχαριστώ, φορτίζω τώρα την μπαταρία.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Κρίσιμo επίπεδο φόρτισης μπαταρίας! Σύνδεσε με με τον φορτιστή!</string>
+		<key>CURRENT_TIME</key>
+		<string>It&apos;s %1 o&apos;η ώρα</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>Είναι %1 και %2</string>
+		<key>CALL</key>
+		<string>%1</string>
+		<key>MAIL</key>
+		<string>Νέο email από %1 με θέμα %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Νέο email από %1</string>
+		<key>MESSAGE</key>
+		<string>You&apos;Έχετε νέο μήνυμα από %1.</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+		<key>NOTIFICATION</key>
+		<string>%1 Ειδοποίηση</string>
+	</dict>
+	<key>tr</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Pil tam dolalı bir saat geçti.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Pil tam dolalı %1 Saat geçti.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Pil tam dolalı bir gün ve bir Saat geçti.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Pil tam dolalı bir gün ve %1 Saat geçti.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Pil tam dolalı %1 Gün ve bir Saat geçti.</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Pil tam dolalı %1 Gün ve %2 Saat geçti.</string>
+		<key>CHARGE_FULL</key>
+		<string>Şimdi tam doldum.</string>
+		<key>CHARGE_LOW</key>
+		<string>Pil % %1 dolu, Bana yakın Zamanda Şarj cihazı lazım.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %2</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>Pil yalnızca % %1 dolu. Lütfen Beni bidahakine komple doldur.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Pil % %1 dolu.</string>
+		<key>CHARGE_STARTED</key>
+		<string>Pilim doluyor.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Teşekkür, pilim doluyor.</string>
+		<key>CALL</key>
+		<string>%1</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Pilim çok zayıf. Beni çabuk şarja bağla.</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>ALARM</key>
+		<string>Alarm: %1</string>
+		<key>TIMER_DONE</key>
+		<string>Sayaç Bitti</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+		<key>CURRENT_TIME</key>
+		<string>Şimdi saat %1</string>
+		<key>MAIL</key>
+		<string>Yeni bir e-postanız var %1 konu %2.</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Yeni bir e-postanız var %1</string>
+		<key>MESSAGE</key>
+		<string>Yeni mesaj %1 den var.</string>
+		<key>NOTIFICATION</key>
+		<string>Bildiri %1 den var.</string>
+	</dict>
+	<key>it</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>É passàta un&apos;ora, dalla mìa ùltima ricàrica complèta.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Sono passàte %1 ore, dalla mìa ùltima ricàrica complèta.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>É passàto un giòrno, dalla mìa ùltima ricàrica complèta.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>É passàto un giòrno e %1 ore dalla mia ùltima ricàrica complèta.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Sono passati %1 giòrni e un&apos;ora dalla mìa ùltima ricàrica complèta.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %2</string>
+		<key>ALARM</key>
+		<string>Sveglia: %1</string>
+		<key>TIMER_DONE</key>
+		<string>Timer scaduto</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Sono passàti %1 giòrni e %2 dalla mìa ùltima ricàrica complèta.</string>
+		<key>CHARGE_FULL</key>
+		<string>La mia batterìa, è complètamente ricarìcata.</string>
+		<key>CALL</key>
+		<string>%1</string>
+		<key>CHARGE_LOW</key>
+		<string>La mia batterìa quàsi scàrica! è solo al %1 %, consìdera di ricàricarmi.</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>La mia batterìa è solo al %1 %. Ti prègo di mèttermi in ricárica al più prèsto.</string>
+		<key>REMINDER</key>
+		<string>%1</string>
+		<key>CALENDAR</key>
+		<string>%1</string>
+		<key>CHARGE_PERCENT</key>
+		<string>La batterìa è al %1 %.</string>
+		<key>CHARGE_STARTED</key>
+		<string>Sto ricaricàndo la mìa batterìa!.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Gràzie, sto ricaricàndo la mìa batterìa ora.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Ho la batterìa quasi scàrica! Collègami ad una fònte di ricàrica!</string>
+		<key>CURRENT_TIME</key>
+		<string>Sòno le ore %1 in pùnto!</string>
+		<key>MAIL</key>
+		<string>Hai una nuòva mail da %1, con oggètto %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Hai una nuòva mail da %1</string>
+		<key>MESSAGE</key>
+		<string>Hai un nuòvo messàggio da, %1.</string>
+		<key>NOTIFICATION</key>
+		<string>Notìfica dall&apos;àpplicazione, %1</string>
+	</dict>
+	<key>ko</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>아이폰이 완전 충전후 1시간이 지났습니다.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>아이폰이 완전 충전후 %1 시간이 지났습니다.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>아이폰이 완전 충전후 1일 1시간이 지났습니다.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>아이폰이 완전 충전후 1일 %1 시간이 지났습니다.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>아이폰이 완전 충전후 %1 일 1시간이 지났습니다.</string>
+		<key>CALL</key>
+		<string>%1 로부터 전화왔습니다.</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>아이폰이 완전 충전후 %1 일 %2 시간이 지났습니다.</string>
+		<key>CHARGE_FULL</key>
+		<string>아이폰이 완전히 충전되었습니다.</string>
+		<key>CHARGE_LOW</key>
+		<string>아이폰 배터리가 현재 %1 입니다. 충전이 필요합니다.</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>아이폰 배터리가 현재 %1 입니다. 충전을 해주시길 바랍니다.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>아이폰 배터리는 현재 %1 입니다.</string>
+		<key>CHARGE_STARTED</key>
+		<string>아이폰 배터리 충전을 시작합니다.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>현재 아이폰이 배터리를 충전하고 있습니다.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %2</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>아이폰 배터리가 부족합니다. 충전해주시길 바랍니다.</string>
+		<key>CURRENT_TIME</key>
+		<string>%1 시 입니다.</string>
+		<key>MAIL</key>
+		<string>%1 로부터 새로운 이메일이 도착했습니다. 제목은 %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>%1 로부터 새로운 이메일이 도착했습니다</string>
+		<key>MESSAGE</key>
+		<string>%1 로부터 새로운 메시지가 도착했습니다.</string>
+		<key>NOTIFICATION</key>
+		<string>%1 로부터 알림메시지가 도착했습니다.</string>
+		<key>REMINDER</key>
+		<string>미리 알림: %1</string>
+		<key>ALARM</key>
+		<string>알람 : %1</string>
+		<key>CALENDAR</key>
+		<string>일정 : %1</string>
+		<key>TIMER_DONE</key>
+		<string>타이머 완료</string>
+	</dict>
+	<key>zh-CN</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>從上次充滿後以使用一小時</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>從上次充滿後以使用 %1 小時</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>從上次充滿後以使用一天一小時</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>從上次充滿後以使用一天 %1 小時</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>從上次充滿後，以使用 %1 天一小時</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>從上次充滿後以使用 %1 天 %2 小時</string>
+		<key>CALL</key>
+		<string> %1 來電</string>
+		<key>CHARGE_FULL</key>
+		<string>充電飽和</string>
+		<key>CHARGE_LOW</key>
+		<string>剩餘電量為 %1 % 建議使用充電器</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>剩餘電量為 %1 %. 建議使用充電器</string>
+		<key>CHARGE_PERCENT</key>
+		<string>剩餘電量為 %1 %.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %2</string>
+		<key>CHARGE_STARTED</key>
+		<string>充電中</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>感謝！獲得電力中</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>電池蓄電量低下！請連接電源！</string>
+		<key>CURRENT_TIME</key>
+		<string>現在是 %1 鐘</string>
+		<key>MAIL</key>
+		<string>一封新郵件從 %1 主題為 %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>一封新郵件從 %1</string>
+		<key>MESSAGE</key>
+		<string>一封新訊息 %1.</string>
+		<key>NOTIFICATION</key>
+		<string>%1 通知</string>
+		<key>REMINDER</key>
+		<string>提醒: %1</string>
+		<key>ALARM</key>
+		<string>鬧鈴: %1</string>
+		<key>CALENDAR</key>
+		<string>行事曆事件: %1</string>
+		<key>TIMER_DONE</key>
+		<string>計時終了</string>
+	</dict>
+	<key>zh-TW</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>從上次充滿後以使用一小時</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>從上次充滿後以使用 %1 小時</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>從上次充滿後以使用一天一小時</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>從上次充滿後以使用一天 %1 小時</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>從上次充滿後，以使用 %1 天一小時</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>從上次充滿後以使用 %1 天 %2 小時</string>
+		<key>CALL</key>
+		<string> %1 來電</string>
+		<key>CHARGE_FULL</key>
+		<string>充電飽和</string>
+		<key>CHARGE_LOW</key>
+		<string>剩餘電量為 %1 % 建議使用充電器</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>剩餘電量為 %1 %. 建議使用充電器</string>
+		<key>CHARGE_PERCENT</key>
+		<string>剩餘電量為 %1 %.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>%1 %2</string>
+		<key>CHARGE_STARTED</key>
+		<string>充電中</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>感謝！獲得電力中</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>電池蓄電量低下！請連接電源！</string>
+		<key>CURRENT_TIME</key>
+		<string>現在是 %1 鐘</string>
+		<key>MAIL</key>
+		<string>一封新郵件從 %1 主題為 %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>一封新郵件從 %1</string>
+		<key>MESSAGE</key>
+		<string>一封新訊息 %1.</string>
+		<key>NOTIFICATION</key>
+		<string>%1 通知</string>
+		<key>REMINDER</key>
+		<string>提醒: %1</string>
+		<key>ALARM</key>
+		<string>鬧鈴: %1</string>
+		<key>CALENDAR</key>
+		<string>行事曆事件: %1</string>
+		<key>TIMER_DONE</key>
+		<string>計時終了</string>
+	</dict>
+	<key>nl</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Het is een uur geleden sinds de batterij opgeladen is.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string>Het is %1 uur geleden sinds de batterij opgeladen is.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Het is een dag en een uur geleden sinds de batterij opgeladen is.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Het is een dag en %1 uur geleden sinds de batterij opgeladen is.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string>Het is %1 dagen en een uur geleden sinds de batterij opgeladen is.</string>
+		<key>CALL</key>
+		<string>Inkomend gesprek van %1</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string>Het is %1 dagen en %2 uur geleden sinds de batterij opgeladen is.</string>
+		<key>CHARGE_FULL</key>
+		<string>Ik ben volledig opgeladen.</string>
+		<key>CHARGE_LOW</key>
+		<string>Battery is %1 %, het is tijd om me de oplader aan te sluiten.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>Het is %1 uur %2</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>De batterij is nog maar %1 %. Laad me alsjeblieft volledig op de volgende keer.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Batterij is nu %1 %.</string>
+		<key>CHARGE_STARTED</key>
+		<string>De batterij wordt opgeladen.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Bedankt, de batterij wordt nu opgeladen.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Batterij bijna leeg! Sluit de oplader aan!</string>
+		<key>CURRENT_TIME</key>
+		<string>It&apos;s %1 o&apos;clock</string>
+		<key>MAIL</key>
+		<string>Een nieuwe e-mail van %1 met onderwerp %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>Een nieuwe e-mail van %1</string>
+		<key>MESSAGE</key>
+		<string>Een nieuw bericht van %1.</string>
+		<key>NOTIFICATION</key>
+		<string>%1 notificatie</string>
+		<key>REMINDER</key>
+		<string>Herinnering: %1</string>
+		<key>ALARM</key>
+		<string>Alarm: %1</string>
+		<key>CALENDAR</key>
+		<string>Calendar gebeurtenis: %1</string>
+		<key>TIMER_DONE</key>
+		<string>Timer is afgelopen</string>
+	</dict>
+	<key>id</key>
+	<dict>
+		<key>CHARGE_DAY_0_HOUR_1</key>
+		<string>Satu jam sudah berlalu sejak pengisian penuh terakhir baterai.</string>
+		<key>CHARGE_DAY_0_HOUR_2</key>
+		<string> %1 sudah berlalu sejak pengisian penuh terakhir baterai.</string>
+		<key>CHARGE_DAY_1_HOUR_1</key>
+		<string>Satu hari lewat satu jam sudah berlalu sejak pengisian penuh terakhir baterai.</string>
+		<key>CHARGE_DAY_1_HOUR_2</key>
+		<string>Satu hari lewat %1 jam sudah berlalu sejak pengisian penuh terakhir baterai.</string>
+		<key>CHARGE_DAY_2_HOUR_1</key>
+		<string> %1 hari lewat satu jam sudah berlalu sejak pengisian penuh terakhir baterai.</string>
+		<key>CALL</key>
+		<string>Panggilan masuk dari %1</string>
+		<key>CHARGE_DAY_2_HOUR_2</key>
+		<string> %1 hari lewat %2 jam sudah berlalu sejak pengisian penuh terakhir baterai.</string>
+		<key>CHARGE_FULL</key>
+		<string>Baterai sudah terisi penuh.</string>
+		<key>CHARGE_LOW</key>
+		<string>Baterai berada pada level %1 %, tolong segera dilakukan pengisian ulang.</string>
+		<key>CURRENT_TIME_MIN</key>
+		<string>Waktu saat ini adalah pukul %1 %2</string>
+		<key>CHARGE_ONLY_PERCENT</key>
+		<string>Baterai hanya terisi %1 %. Diharapkan untuk melakukan penisian penuh dilain waktu.</string>
+		<key>CHARGE_PERCENT</key>
+		<string>Baterai sudah terisi %1 %.</string>
+		<key>CHARGE_STARTED</key>
+		<string>Pengisian baterai dimulai sekarang.</string>
+		<key>CHARGE_STARTED_THANKS</key>
+		<string>Terima kasih, pengisian baterai dimulai sekarang.</string>
+		<key>CHARGE_VERY_LOW</key>
+		<string>Baterai kritis! Hubungkan saya dengan charger!</string>
+		<key>CURRENT_TIME</key>
+		<string>Waktu saat ini adalah pukul %1 tepat</string>
+		<key>MAIL</key>
+		<string>E-mail baru dari %1 dengan topik %2</string>
+        <key>MAIL_NO_SUBJ</key>
+        <string>E-mail baru dari %1</string>
+		<key>MESSAGE</key>
+		<string>Pesan baru dari %1.</string>
+		<key>NOTIFICATION</key>
+		<string>%1 pemberitahuan</string>
+		<key>REMINDER</key>
+		<string>Pengingat: %1</string>
+		<key>ALARM</key>
+		<string>Alarm: %1</string>
+		<key>CALENDAR</key>
+		<string>Kalender acara: %1</string>
+		<key>TIMER_DONE</key>
+		<string>Timer selesai</string>
+	</dict>
+</dict>
+</plist>

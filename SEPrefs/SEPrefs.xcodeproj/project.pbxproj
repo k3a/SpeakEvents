@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7256E5E914F1949E00E186C6 /* SEPrefs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7256E5E714F190EE00E186C6 /* SEPrefs.mm */; };
+		727FC0A41502939400CBC355 /* SEPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 727FC0A31502939400CBC355 /* SEPrefs.h */; };
+		72BCE84914F998F700213F41 /* SEPrefsAppToggleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BCE84714F998F700213F41 /* SEPrefsAppToggleController.h */; };
+		72BCE84A14F998F700213F41 /* SEPrefsAppToggleController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72BCE84814F998F700213F41 /* SEPrefsAppToggleController.mm */; };
+		72BCE84E14F9A45700213F41 /* SEHourController.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BCE84C14F9A45700213F41 /* SEHourController.h */; };
+		72BCE84F14F9A45700213F41 /* SEHourController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72BCE84D14F9A45700213F41 /* SEHourController.mm */; };
+		72BCE85114F9A53E00213F41 /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BCE85014F9A53D00213F41 /* Shared.h */; };
+		72D448F214CC1F7E00247B46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D448F114CC1F7E00247B46 /* Foundation.framework */; };
+		72D4490514CC1FEF00247B46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D4490414CC1FEF00247B46 /* UIKit.framework */; };
+		72D4490814CC2C5100247B46 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D4490714CC2C5100247B46 /* Twitter.framework */; };
+		72D4490A14CC2DD500247B46 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D4490914CC2DD500247B46 /* Accounts.framework */; };
+		72E655A1154B279A008D9A7C /* SELangPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E6559F154B279A008D9A7C /* SELangPrefs.h */; };
+		72E655A2154B279A008D9A7C /* SELangPrefs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72E655A0154B279A008D9A7C /* SELangPrefs.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72076C9D14FBCE2C00752C2A /* about.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = about.txt; path = Resources/about.txt; sourceTree = "<group>"; };
+		7256E5E714F190EE00E186C6 /* SEPrefs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SEPrefs.mm; sourceTree = SOURCE_ROOT; };
+		727FC0A31502939400CBC355 /* SEPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPrefs.h; sourceTree = SOURCE_ROOT; };
+		72BCE84714F998F700213F41 /* SEPrefsAppToggleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPrefsAppToggleController.h; sourceTree = SOURCE_ROOT; };
+		72BCE84814F998F700213F41 /* SEPrefsAppToggleController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SEPrefsAppToggleController.mm; sourceTree = SOURCE_ROOT; };
+		72BCE84C14F9A45700213F41 /* SEHourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEHourController.h; sourceTree = SOURCE_ROOT; };
+		72BCE84D14F9A45700213F41 /* SEHourController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SEHourController.mm; sourceTree = SOURCE_ROOT; };
+		72BCE85014F9A53D00213F41 /* Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = SOURCE_ROOT; };
+		72D448EE14CC1F7E00247B46 /* libSEPrefs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSEPrefs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D448F114CC1F7E00247B46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72D4490414CC1FEF00247B46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72D4490714CC2C5100247B46 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		72D4490914CC2DD500247B46 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		72E6559F154B279A008D9A7C /* SELangPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELangPrefs.h; sourceTree = SOURCE_ROOT; };
+		72E655A0154B279A008D9A7C /* SELangPrefs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SELangPrefs.mm; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72D448EB14CC1F7E00247B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D4490A14CC2DD500247B46 /* Accounts.framework in Frameworks */,
+				72D4490814CC2C5100247B46 /* Twitter.framework in Frameworks */,
+				72D4490514CC1FEF00247B46 /* UIKit.framework in Frameworks */,
+				72D448F214CC1F7E00247B46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72D448E314CC1F7E00247B46 = {
+			isa = PBXGroup;
+			children = (
+				72076C9D14FBCE2C00752C2A /* about.txt */,
+				72D4490914CC2DD500247B46 /* Accounts.framework */,
+				72D4490714CC2C5100247B46 /* Twitter.framework */,
+				72D4490414CC1FEF00247B46 /* UIKit.framework */,
+				72D448F314CC1F7E00247B46 /* SEPrefs */,
+				72D448EF14CC1F7E00247B46 /* Products */,
+				72D448F014CC1F7E00247B46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72D448EF14CC1F7E00247B46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D448EE14CC1F7E00247B46 /* libSEPrefs.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72D448F014CC1F7E00247B46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72D448F114CC1F7E00247B46 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72D448F314CC1F7E00247B46 /* SEPrefs */ = {
+			isa = PBXGroup;
+			children = (
+				727FC0A31502939400CBC355 /* SEPrefs.h */,
+				7256E5E714F190EE00E186C6 /* SEPrefs.mm */,
+				72BCE84714F998F700213F41 /* SEPrefsAppToggleController.h */,
+				72BCE84814F998F700213F41 /* SEPrefsAppToggleController.mm */,
+				72BCE84C14F9A45700213F41 /* SEHourController.h */,
+				72BCE84D14F9A45700213F41 /* SEHourController.mm */,
+				72BCE85014F9A53D00213F41 /* Shared.h */,
+				72E6559F154B279A008D9A7C /* SELangPrefs.h */,
+				72E655A0154B279A008D9A7C /* SELangPrefs.mm */,
+			);
+			name = SEPrefs;
+			path = AEPrefs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72D448EC14CC1F7E00247B46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BCE84914F998F700213F41 /* SEPrefsAppToggleController.h in Headers */,
+				72BCE84E14F9A45700213F41 /* SEHourController.h in Headers */,
+				72BCE85114F9A53E00213F41 /* Shared.h in Headers */,
+				727FC0A41502939400CBC355 /* SEPrefs.h in Headers */,
+				72E655A1154B279A008D9A7C /* SELangPrefs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		72D448ED14CC1F7E00247B46 /* SEPrefs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D448FB14CC1F7E00247B46 /* Build configuration list for PBXNativeTarget "SEPrefs" */;
+			buildPhases = (
+				72D4490614CC22EE00247B46 /* ShellScript */,
+				7256E5E814F1949900E186C6 /* Sources */,
+				72D448EB14CC1F7E00247B46 /* Frameworks */,
+				72D448EC14CC1F7E00247B46 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEPrefs;
+			productName = AEPrefs;
+			productReference = 72D448EE14CC1F7E00247B46 /* libSEPrefs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72D448E514CC1F7E00247B46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = K3A;
+			};
+			buildConfigurationList = 72D448E814CC1F7E00247B46 /* Build configuration list for PBXProject "SEPrefs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72D448E314CC1F7E00247B46;
+			productRefGroup = 72D448EF14CC1F7E00247B46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72D448ED14CC1F7E00247B46 /* SEPrefs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72D4490614CC22EE00247B46 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make test";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7256E5E814F1949900E186C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7256E5E914F1949E00E186C6 /* SEPrefs.mm in Sources */,
+				72BCE84A14F998F700213F41 /* SEPrefsAppToggleController.mm in Sources */,
+				72BCE84F14F9A45700213F41 /* SEHourController.mm in Sources */,
+				72E655A2154B279A008D9A7C /* SELangPrefs.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72D448F914CC1F7E00247B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72D448FA14CC1F7E00247B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72D448FC14CC1F7E00247B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv6;
+				CODE_SIGN_IDENTITY = "";
+				DSTROOT = /tmp/AEPrefs.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					/theos/include,
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SEPrefs;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		72D448FD14CC1F7E00247B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv6;
+				CODE_SIGN_IDENTITY = "";
+				DSTROOT = /tmp/AEPrefs.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					/theos/include,
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SEPrefs;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72D448E814CC1F7E00247B46 /* Build configuration list for PBXProject "SEPrefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D448F914CC1F7E00247B46 /* Debug */,
+				72D448FA14CC1F7E00247B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D448FB14CC1F7E00247B46 /* Build configuration list for PBXNativeTarget "SEPrefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D448FC14CC1F7E00247B46 /* Debug */,
+				72D448FD14CC1F7E00247B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72D448E514CC1F7E00247B46 /* Project object */;
+}
