@@ -12,7 +12,7 @@ SUBPROJECTS = SEPrefs speakevent setoggle speakeventssupport #DV
 
 # use latest SDK (7.0) but use iOS 5.0 as deployment target (5.1 SDK)
 export TARGET=iphone:latest:5.0 
-export ARCHS = armv6 arm64
+export ARCHS = armv7 arm64
 
 CLD_SOURCES=cld/encodings/compact_lang_det/cldutil.cc \
         cld/encodings/compact_lang_det/cldutil_dbg_empty.cc \

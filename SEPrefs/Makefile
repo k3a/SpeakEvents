@@ -4,8 +4,8 @@ DEBUG = 1
 include theos/makefiles/common.mk
 
 # use latest SDK but use iOS 5.0 as deployment target (5.1 SDK)
-export TARGET=iphone:5.1:5.0
-export ARCHS = armv6 # arm64
+export TARGET=iphone:latest:5.0
+export ARCHS = armv7
 
 BUNDLE_NAME = SEPrefs
 SEPrefs_FILES = SEPrefs.mm SEPrefsAppToggleController.mm SEHourController.mm SELangPrefs.mm
