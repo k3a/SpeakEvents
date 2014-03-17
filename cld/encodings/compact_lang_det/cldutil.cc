@@ -214,6 +214,14 @@ uint32 cld::QuadHashV25Underscore(const char* word_ptr, int bytecount) {
   return QuadHashV25Mix(local_word_ptr, local_bytecount, prepost);
 }
 
+//k3a: fix memory misalignment on armv7
+static uint64 GetWord(const void* mem)
+{
+	uint64 ret;
+	memcpy(&ret, mem, sizeof(ret));
+	return ret;
+}
+
 
 // OCTAGRAM
 // Pick up 1..24 bytes plus pre/post space and hash them via mask/shift/add
@@ -232,91 +240,91 @@ uint64 OctaHash40Mix(const char* word_ptr, int bytecount, uint64 prepost) {
   if (word_ptr[bytecount] == ' ') {prepost |= kPostSpaceIndicator;}
   switch ((bytecount - 1) >> 2) {
   case 0:       // 1..4 bytes
-    word0 = word_ptr32[0] & kWordMask0[bytecount & 3];
+    word0 = GetWord(word_ptr32) & kWordMask0[bytecount & 3];
     sum = word0;
     word0 = word0 ^ (word0 >> 3);
     break;
   case 1:       // 5..8 bytes
-    word0 = word_ptr32[0];
+    word0 = GetWord(word_ptr32);
     sum = word0;
     word0 = word0 ^ (word0 >> 3);
-    word1 = word_ptr32[1] & kWordMask0[bytecount & 3];
+    word1 = GetWord(word_ptr32+1) & kWordMask0[bytecount & 3];
     sum += word1;
     word1 = word1 ^ (word1 << 4);
     word0 += word1;
     break;
   case 2:       // 9..12 bytes
-    word0 = word_ptr32[0];
+    word0 = GetWord(word_ptr32);
     sum = word0;
     word0 = word0 ^ (word0 >> 3);
-    word1 = word_ptr32[1];
+    word1 = GetWord(word_ptr32+1);
     sum += word1;
     word1 = word1 ^ (word1 << 4);
     word0 += word1;
-    word1 = word_ptr32[2] & kWordMask0[bytecount & 3];
+    word1 = GetWord(word_ptr32+2) & kWordMask0[bytecount & 3];
     sum += word1;
     word1 = word1 ^ (word1 << 2);
     word0 += word1;
     break;
   case 3:       // 13..16 bytes
-    word0 = word_ptr32[0];
+    word0 = GetWord(word_ptr32);
     sum = word0;
     word0 = word0 ^ (word0 >> 3);
-    word1 = word_ptr32[1];
+    word1 = GetWord(word_ptr32+1);
     sum += word1;
     word1 = word1 ^ (word1 << 4);
     word0 += word1;
-    word1 = word_ptr32[2];
+    word1 = GetWord(word_ptr32+2);
     sum += word1;
     word1 = word1 ^ (word1 << 2);
     word0 += word1;
-    word1 = word_ptr32[3] & kWordMask0[bytecount & 3];
+    word1 = GetWord(word_ptr32+3) & kWordMask0[bytecount & 3];
     sum += word1;
     word1 = word1 ^ (word1 >> 8);
     word0 += word1;
     break;
   case 4:       // 17..20 bytes
-    word0 = word_ptr32[0];
+    word0 = GetWord(word_ptr32);
     sum = word0;
     word0 = word0 ^ (word0 >> 3);
-    word1 = word_ptr32[1];
+    word1 = GetWord(word_ptr32+1);
     sum += word1;
     word1 = word1 ^ (word1 << 4);
     word0 += word1;
-    word1 = word_ptr32[2];
+    word1 = GetWord(word_ptr32+2);
     sum += word1;
     word1 = word1 ^ (word1 << 2);
     word0 += word1;
-    word1 = word_ptr32[3];
+    word1 = GetWord(word_ptr32+3);
     sum += word1;
     word1 = word1 ^ (word1 >> 8);
     word0 += word1;
-    word1 = word_ptr32[4] & kWordMask0[bytecount & 3];
+    word1 = GetWord(word_ptr32+4) & kWordMask0[bytecount & 3];
     sum += word1;
     word1 = word1 ^ (word1 >> 4);
     word0 += word1;
     break;
   default:      // 21..24 bytes and higher (ignores beyond 24)
-    word0 = word_ptr32[0];
+    word0 = GetWord(word_ptr32);
     sum = word0;
     word0 = word0 ^ (word0 >> 3);
-    word1 = word_ptr32[1];
+    word1 = GetWord(word_ptr32+1);
     sum += word1;
     word1 = word1 ^ (word1 << 4);
     word0 += word1;
-    word1 = word_ptr32[2];
+    word1 = GetWord(word_ptr32+2);
     sum += word1;
     word1 = word1 ^ (word1 << 2);
     word0 += word1;
-    word1 = word_ptr32[3];
+    word1 = GetWord(word_ptr32+3);
     sum += word1;
     word1 = word1 ^ (word1 >> 8);
     word0 += word1;
-    word1 = word_ptr32[4];
+    word1 = GetWord(word_ptr32+4);
     sum += word1;
     word1 = word1 ^ (word1 >> 4);
     word0 += word1;
-    word1 = word_ptr32[5] & kWordMask0[bytecount & 3];
+    word1 = GetWord(word_ptr32+5) & kWordMask0[bytecount & 3];
     sum += word1;
     word1 = word1 ^ (word1 >> 6);
     word0 += word1;

@@ -8,7 +8,7 @@ GO_EASY_ON_ME = 1
 include theos/makefiles/common.mk
 
 SUBPROJECTS = SEPrefs speakevent setoggle speakeventssupport #DV
-#DEBUG = 1
+DEBUG = 1
 
 # use latest SDK (7.0) but use iOS 5.0 as deployment target (5.1 SDK)
 export TARGET=iphone:latest:5.0 
@@ -41,7 +41,7 @@ SpeakEvents_PRIVATE_FRAMEWORKS = VoiceServices AppSupport BulletinBoard
 SpeakEvents_LDFLAGS  = -v -Llib -lactivator -Flib  #lcld
 #SpeakEvents_LDFLAGS += -Xlinker -x -Xlinker -exported_symbol -Xlinker _Initialize
 SpeakEvents_LDFLAGS += -ObjC++ -fobjc-exceptions -fobjc-call-cxx-cdtors
-SpeakEvents_CFLAGS = -Os -funroll-loops -gdwarf-2 -DCLD_WINDOWS -fno-exceptions -fobjc-exceptions -fobjc-call-cxx-cdtors -Iinclude -Icld
+SpeakEvents_CFLAGS = -g -Os -funroll-loops -gdwarf-2 -DCLD_WINDOWS -fno-exceptions -fobjc-exceptions -fobjc-call-cxx-cdtors -Iinclude -Icld
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 include $(FW_MAKEDIR)/aggregate.mk
