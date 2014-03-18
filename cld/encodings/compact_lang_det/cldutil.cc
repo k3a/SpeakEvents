@@ -13,6 +13,14 @@
 #include "encodings/compact_lang_det/win/cld_utf.h"
 #include "encodings/compact_lang_det/win/cld_utf8statetable.h"
 
+//k3a: fix memory misalignment on armv7
+static uint64 GetWord(const void* mem)
+{
+    uint64 ret;
+    memcpy(&ret, mem, sizeof(ret));
+    return ret;
+}
+
 // Runtime routines for hashing, looking up, and scoring
 // unigrams (CJK), bigrams (CJK), quadgrams, and octagrams.
 // Unigrams and bigrams are for CJK languages only, including simplified/
@@ -98,14 +106,14 @@ uint32 cld::BiHashV25(const char* word_ptr, int bytecount) {
   const uint32* word_ptr32 = reinterpret_cast<const uint32*>(word_ptr);
   uint32 word0, word1;
   if (bytecount <= 4) {
-    word0 = word_ptr32[0] & kWordMask0[bytecount & 3];
+    word0 = GetWord(word_ptr32) & kWordMask0[bytecount & 3];
     word0 = word0 ^ (word0 >> 3);
     return word0;
   }
   // Else do 8 bytes
-  word0 = word_ptr32[0];
+  word0 = GetWord(word_ptr32);
   word0 = word0 ^ (word0 >> 3);
-  word1 = word_ptr32[1] & kWordMask0[bytecount & 3];
+  word1 = GetWord(word_ptr32+1) & kWordMask0[bytecount & 3];
   word1 = word1 ^ (word1 << 18);
   return word0 + word1;
 }
@@ -156,22 +164,22 @@ uint32 QuadHashV25Mix(const char* word_ptr, int bytecount, uint32 prepost) {
   const uint32* word_ptr32 = reinterpret_cast<const uint32*>(word_ptr);
   uint32 word0, word1, word2;
   if (bytecount <= 4) {
-    word0 = word_ptr32[0] & kWordMask0[bytecount & 3];
+    word0 = GetWord(word_ptr32) & kWordMask0[bytecount & 3];
     word0 = word0 ^ (word0 >> 3);
     return word0 ^ prepost;
   } else if (bytecount <= 8) {
-    word0 = word_ptr32[0];
+    word0 = GetWord(word_ptr32);
     word0 = word0 ^ (word0 >> 3);
-    word1 = word_ptr32[1] & kWordMask0[bytecount & 3];
+    word1 = GetWord(word_ptr32+1) & kWordMask0[bytecount & 3];
     word1 = word1 ^ (word1 << 4);
     return (word0 ^ prepost) + word1;
   }
   // else do 12 bytes
-  word0 = word_ptr32[0];
+  word0 = GetWord(word_ptr32);
   word0 = word0 ^ (word0 >> 3);
-  word1 = word_ptr32[1];
+  word1 = GetWord(word_ptr32+1);
   word1 = word1 ^ (word1 << 4);
-  word2 = word_ptr32[2] & kWordMask0[bytecount & 3];
+  word2 = GetWord(word_ptr32+2) & kWordMask0[bytecount & 3];
   word2 = word2 ^ (word2 << 2);
   return (word0 ^ prepost) + word1 + word2;
 }
@@ -213,15 +221,6 @@ uint32 cld::QuadHashV25Underscore(const char* word_ptr, int bytecount) {
   }
   return QuadHashV25Mix(local_word_ptr, local_bytecount, prepost);
 }
-
-//k3a: fix memory misalignment on armv7
-static uint64 GetWord(const void* mem)
-{
-	uint64 ret;
-	memcpy(&ret, mem, sizeof(ret));
-	return ret;
-}
-
 
 // OCTAGRAM
 // Pick up 1..24 bytes plus pre/post space and hash them via mask/shift/add
