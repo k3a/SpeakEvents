@@ -14,7 +14,7 @@ In order to complile it, set the correct theos symlink to your theos installatio
 
 There is also 'make test' makefile rule but it won't work without modifying theos. I used it to automate package creation, installing the packge on the device and respringing the device. This is not needed though as you can install the package standard theos way or via 'dpkg -i path to deb' on the device.
 
-If you have trouble compiling it, you can contact me at 'se (at) k3a . me' and I will try to help you and/or update this readme.
+If you have trouble compiling it, you can contact me and others at http://forum.k3a.me. I will try to help you and/or update this readme.
 
 For some reason I was unable to compile fat armv7/arm64 preference bundle.
 When loading such a bundle in the Preferences, this was shown in the syslog:
