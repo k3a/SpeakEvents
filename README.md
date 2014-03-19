@@ -6,7 +6,7 @@ iOS tweak for speaking notifications and other events using speech synthesiser.
 Official website: http://se.k3a.me/ <br/>
 Developer & User Forums: http://forum.k3a.me
 
-You may need these files (updated theos and include files): <br/>
+General theos info is here http://iphonedevwiki.net/index.php/Theos/Getting_Started but you may need these files (updated theos and include files): <br/>
  - https://github.com/rpetrich/iphoneheaders
  - https://github.com/rpetrich/theos  
 
