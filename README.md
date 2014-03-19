@@ -10,12 +10,8 @@ You may need these files (updated theos and include files): <br/>
  - https://github.com/rpetrich/iphoneheaders
  - https://github.com/rpetrich/theos  
 
-In order to complile it, set the correct theos symlink to your theos installation and run 'make package' command.
+In order to complile it, install Xcode and set the correct theos symlink to your theos installation (or put theos to /theos and keep my simplink) and run 'make package' command.
 
 There is also 'make test' makefile rule but it won't work without modifying theos. I used it to automate package creation, installing the packge on the device and respringing the device. This is not needed though as you can install the package standard theos way or via 'dpkg -i path to deb' on the device.
 
-If you have trouble compiling it, you can contact me and others at http://forum.k3a.me. I will try to help you and/or update this readme.
-
-For some reason I was unable to compile fat armv7/arm64 preference bundle.
-When loading such a bundle in the Preferences, this was shown in the syslog:
-Preferences[1514]: Error loading /Library/PreferenceBundles/SEPrefs.bundle/SEPrefs:  dlopen(/Library/PreferenceBundles/SEPrefs.bundle/SEPrefs, 265): bad rebase opcode 222 in /Library/PreferenceBundles/SEPrefs.bundle/SEPrefs
+If you have trouble compiling it, you can contact me and others at http://forum.k3a.me or simply create a github issue. I will try to help you and/or update this readme.
