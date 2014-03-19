@@ -2384,7 +2384,7 @@ static void uncaughtExceptionHandler(NSException *exception) {
 
 static BOOL HeadphonesPresent()
 {
-    VolumeControl* volCtrl = [objc_getClass("VolumeControl") sharedVolumeControl];
+    VolumeControl<VolumeControl>* volCtrl = [objc_getClass("VolumeControl") sharedVolumeControl];
     if ([volCtrl respondsToSelector:@selector(_headphonesPresent)])
         return [volCtrl _headphonesPresent];
     else

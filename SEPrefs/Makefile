@@ -1,12 +1,9 @@
 GO_EASY_ON_ME = 1
-
 DEBUG = 1
-include theos/makefiles/common.mk
-
-# use latest SDK but use iOS 5.0 as deployment target (5.1 SDK)
-# a combined binary requires a minimum deployment target of iOS 5.1.1 or later. 
 export TARGET=iphone:latest:5.1.1
-export ARCHS = armv7 armv7s arm64
+export ARCHS = armv7 arm64
+
+include theos/makefiles/common.mk
 
 BUNDLE_NAME = SEPrefs
 SEPrefs_FILES = SEPrefs.mm SEPrefsAppToggleController.mm SEHourController.mm SELangPrefs.mm

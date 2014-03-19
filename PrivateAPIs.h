@@ -217,7 +217,10 @@ extern id AVSystemController_IsSomeoneRecordingAttribute;
 
 
 
-
+@protocol VolumeControl
+@optional
+-(BOOL)headphonesPresent;
+@end
 
 
 

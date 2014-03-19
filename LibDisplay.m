@@ -7,6 +7,8 @@
 //
 
 //#import <SpringBoard4.0/SBAppSwitcherController.h>
+#import <SpringBoard/SBIcon.h>
+#import <SpringBoard/SBApplication.h>
 #import <SpringBoard/SBUIController.h>
 #import <SpringBoard/SBDisplayStack.h>
 #import <SpringBoard/SBApplication.h>
@@ -64,9 +66,6 @@
 -(id)initWithProcess:(SBProcess*)process reason:(unsigned int)reason identifier:(NSString*)identifier;
 @end
 
-
-@interface SBIcon : NSObject
-@end
 
 @interface SBIconView : UIView
 @property(readonly) SBIcon *icon;
